@@ -9,9 +9,11 @@ ls -a					;lista todos os arquivos ocultos dentro da pasta
 cd					;change direction, serve para mudar de pasta
 cd..					;volta um nível de pasta
 CTRL+L					;limpa o terminal
+git add nomeArquivo			;adiciona o respectivo arquivo
 git add . ou git add -A 		;adiciona todos os arquivos dentro da pasta ao Github
 git commit -m "" 			;colocar a mensagem entre "", serve para enviar os arquivos após a atualização
-git init				;inicia o git dentro do repositório
+git init				;inicia o git dentro do repositório, cria um repositório
 git config --global user.email ""	;configuração inicial para logar no git, colocar o e-mail entre parênteses
 git config --global user.name		;configuração inicial para logar no git, colocar o e-mail entre parênteses
 mkdir					;cria um repositório ou pasta
+mv					;move um arquivo para outro local. Ex.: mv texto.txt ./pasta/
