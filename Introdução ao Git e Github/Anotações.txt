@@ -15,6 +15,6 @@ git commit -m "" 			;colocar a mensagem entre "", serve para enviar os arquivos 
 git init				;inicia o git dentro do repositório, cria um repositório
 git config --global user.email ""	;configuração inicial para logar no git, colocar o e-mail entre parênteses
 git config --global user.name		;configuração inicial para logar no git, colocar o e-mail entre parênteses
-git push origin main            ;faz o upload dos arquivos comitados para a branch main
+git push origin main              ;faz o upload dos arquivos comitados para a branch main
 mkdir					;cria um repositório ou pasta
 mv					;move um arquivo para outro local. Ex.: mv texto.txt ./pasta/
